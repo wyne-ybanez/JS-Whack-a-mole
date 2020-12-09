@@ -20,21 +20,20 @@ function randomSquare() {
     hitPosition = randomPosition.id
 }
 
-square.forEach(id => {
-    id.addEventListener('mouseup', () => {
-        if(id.id === hitposition) {
-          result = result + 1
-
-          // to visually display the win
-          score.textContent = result  
+square.forEach (id => {
+        id.addEventListener('mouseup', () => {
+          if(id.id === hitPosition){
+            result = result + 1
+            score.textContent = result
+            hitPosition=null
         }
+      })
     })
-})
 
-// Move the mole randomly every 500 seconds
+// Move the mole randomly every .5 seconds
 function moveMole() {
     let timerId = null 
-    timerId = setInterval (randomSquare, 500)
+    timerId = setInterval(randomSquare, 500)
 }
 
 moveMole()

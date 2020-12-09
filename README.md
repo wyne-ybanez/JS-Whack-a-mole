@@ -1,5 +1,8 @@
 ## JS Whack-A-Mole Mini Project 
 
+- Using VSCode
+- Using Google Chrome
+
 ### Acknowledgements 
 
 - Ania Kubow: https://www.youtube.com/watch?v=lhNdUVh3qCc&ab_channel=freeCodeCamp.org

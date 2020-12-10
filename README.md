@@ -3,6 +3,8 @@
 - Using VSCode
 - Using Google Chrome
 
+Link to Game: https://wyne-ybanez.github.io/JS-Whack-a-mole/
+
 ### Acknowledgements 
 
 - Ania Kubow: https://www.youtube.com/watch?v=lhNdUVh3qCc&ab_channel=freeCodeCamp.org
